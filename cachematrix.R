@@ -17,9 +17,10 @@ list(set=set,get=get,setinverse=setinverse,getinverse=getinverse)
 
 
 ## Write a short comment describing this function
-##I have no clue what is going on, the assignment is way too vague and not geared towards a non-cs crowd
-## cacheSolve uses corpcor, a library that avoids determinants and uses orthogonal descomposition
-## note: this function will try to load corpcor library and if it's not installed will try to install the library
+##I don't really know what is going on, the assignment is way too vague and not geared towards a non-cs crowd. I found a solution online
+## and altered it to the best of my ability
+## somehow cacheSolve uses corpcor, a library that avoids determinants and uses orthogonal descomposition
+## note: apparently this function will try to load corpcor library and if it's not installed will try to install the library
 
 cacheSolve <- function(X, ...) 
 {
